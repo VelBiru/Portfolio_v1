@@ -4,6 +4,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import ScrollReveal from "./ScrollReveal";
+import profilePic from "@/public/assets/profile.png";
 
 export default function Hero() {
   return (
@@ -12,12 +13,12 @@ export default function Hero() {
       className="relative min-h-screen pt-28 sm:pt-32 pb-16 px-4 sm:px-8 md:px-12 flex flex-col items-center justify-center bg-[#0B0D0E] overflow-hidden"
     >
       <div className="w-full max-w-7xl mx-auto flex flex-col items-center">
-        
+
         {/* ========================================================
             MOBILE & TABLET HERO (lg:hidden)
            ======================================================== */}
         <div className="w-full flex flex-col items-center gap-6 lg:hidden">
-          
+
           {/* Mobile Title Header */}
           <ScrollReveal direction="down">
             <div className="text-center z-20">
@@ -34,7 +35,7 @@ export default function Hero() {
           <div className="relative w-full flex justify-center py-2 z-20">
             <ScrollReveal direction="up" delay={100} className="w-full flex justify-center">
               <div className="relative w-[280px] sm:w-[360px] aspect-[4/5] flex items-end justify-center">
-                
+
                 {/* Background Vector Shield Logo */}
                 <div className="absolute left-1/2 -translate-x-1/2 -top-[18%] bottom-2 w-[120%] sm:w-[130%] flex items-end justify-center pointer-events-none z-0">
                   <div className="relative w-full h-full">
@@ -51,7 +52,7 @@ export default function Hero() {
                 {/* Foreground Profile Image */}
                 <div className="relative z-20 w-[90%] h-[82%] right-[2%] flex items-end justify-center pointer-events-none">
                   <Image
-                    src="./assets/profile.png"
+                    src={profilePic}
                     alt="Aville Malintad"
                     width={420}
                     height={520}
@@ -102,7 +103,7 @@ export default function Hero() {
             DESKTOP HERO (hidden lg:flex flex-col)
            ======================================================== */}
         <div className="hidden lg:flex flex-col items-center w-full">
-          
+
           {/* Desktop Title Header */}
           <ScrollReveal direction="down">
             <div className="text-center z-20 mb-6 max-w-3xl mx-auto">
@@ -145,7 +146,7 @@ export default function Hero() {
                   <div className="absolute left-1/2 -translate-x-1/2 -top-[22%] bottom-4 w-[125%] flex items-end justify-center pointer-events-none z-0">
                     <div className="relative w-full h-full">
                       <Image
-                        src="./assets/rotated-V.svg"
+                        src="/assets/rotated-V.svg"
                         alt="Background Shield Logo"
                         fill
                         priority
@@ -157,7 +158,7 @@ export default function Hero() {
                   {/* Foreground Profile Image */}
                   <div className="relative z-20 w-[90%] h-[80%] right-[3%] flex items-end justify-center pointer-events-none">
                     <Image
-                      src="./assets/profile.png"
+                      src={profilePic}
                       alt="Aville Malintad"
                       width={460}
                       height={560}
