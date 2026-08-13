@@ -51,7 +51,7 @@ export default function Footer() {
         <div className="flex flex-col items-center gap-3 mb-8">
           <Link href="#home" className="flex items-center gap-3 group">
             <Image
-              src="/assets/logo.svg"
+              src="./assets/logo.svg"
               alt="Aville Malintad Logo"
               width={36}
               height={36}

@@ -23,7 +23,7 @@ export default function Navbar() {
         <Link href="#home" className="flex items-center gap-3 group">
           <div className="relative w-8 h-8 flex items-center justify-center">
             <Image
-              src="/assets/logo.svg"
+              src="./assets/logo.svg"
               alt="Aville Malintad Logo"
               width={32}
               height={32}

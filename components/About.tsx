@@ -7,21 +7,21 @@ import ScrollReveal from "./ScrollReveal";
 
 export default function About() {
   const tools = [
-    { name: "Figma", icon: "/assets/tools-logo/figma.svg", desc: "UI/UX & Prototyping" },
-    { name: "Framer", icon: "/assets/tools-logo/framer.svg", desc: "Interactive Motion" },
-    { name: "React", icon: "/assets/tools-logo/react.svg", desc: "Frontend Web Apps" },
-    { name: "TypeScript", icon: "/assets/tools-logo/typescript.svg", desc: "Type-safe Logic" },
-    { name: "JavaScript", icon: "/assets/tools-logo/javascript.svg", desc: "Web Engineering" },
-    { name: "Photoshop", icon: "/assets/tools-logo/photoshop.svg", desc: "Graphic & Brand" },
-    { name: "Illustrator", icon: "/assets/tools-logo/illustrator.svg", desc: "Vector Artwork" },
+    { name: "Figma", icon: "./assets/tools-logo/figma.svg", desc: "UI/UX & Prototyping" },
+    { name: "Framer", icon: "./assets/tools-logo/framer.svg", desc: "Interactive Motion" },
+    { name: "React", icon: "./assets/tools-logo/react.svg", desc: "Frontend Web Apps" },
+    { name: "TypeScript", icon: "./assets/tools-logo/typescript.svg", desc: "Type-safe Logic" },
+    { name: "JavaScript", icon: "./assets/tools-logo/javascript.svg", desc: "Web Engineering" },
+    { name: "Photoshop", icon: "./assets/tools-logo/photoshop.svg", desc: "Graphic & Brand" },
+    { name: "Illustrator", icon: "./assets/tools-logo/illustrator.svg", desc: "Vector Artwork" },
   ];
 
   const aiTools = [
-    { name: "Antigravity", icon: "/assets/tools-logo/antigravity.svg", desc: "Google DeepMind AI" },
-    { name: "Claude", icon: "/assets/tools-logo/claude.svg", desc: "Anthropic Claude 3.7" },
-    { name: "Codex", icon: "/assets/tools-logo/codex.svg", desc: "OpenAI Codex" },
-    { name: "ChatGPT", icon: "/assets/tools-logo/chatgpt.svg", desc: "OpenAI GPT-4o" },
-    { name: "Gemini", icon: "/assets/tools-logo/gemini.svg", desc: "Google Gemini Pro" },
+    { name: "Antigravity", icon: "./assets/tools-logo/antigravity.svg", desc: "Google DeepMind AI" },
+    { name: "Claude", icon: "./assets/tools-logo/claude.svg", desc: "Anthropic Claude 3.7" },
+    { name: "Codex", icon: "./assets/tools-logo/codex.svg", desc: "OpenAI Codex" },
+    { name: "ChatGPT", icon: "./assets/tools-logo/chatgpt.svg", desc: "OpenAI GPT-4o" },
+    { name: "Gemini", icon: "./assets/tools-logo/gemini.svg", desc: "Google Gemini Pro" },
   ];
 
   const highlights = [
